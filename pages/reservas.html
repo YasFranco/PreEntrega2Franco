@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservas</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../media/FAVICON.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/853e0612ed.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Inicio header -->
+    <header>
+        <div class="encabezado">
+            <div class="redes">
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://www.gmail.com/" target="_blank"><i class="fas fa-envelope"></i></a>
+            </div>
+            <div class="logo">
+                <img src="../media/RESTAURANT.png" alt="logo">
+            </div>
+            <div>
+                <form action="" method="post" enctype="application/x-www-form-urlencoded">
+                    <input type="text" name="buscar">
+                    <button>Buscar</button>
+                </form>
+            </div>
+        </div>
+        <nav class="barraContainer">
+            <ul class="barraNavegacion">
+                <li> <a href="../index.html">Inicio</a></li>
+                <li> <a href="quienes-somos.html">Quienes somos</a></li>
+                <li> <a href="nuestra-carta.html">Nuestra carta</a></li>
+                <li> <a href="reservas.html">Reservas</a></li>
+                <li> <a href="contactos.html">Contactos</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <!-- Fin del header -->
+    <!-- Inicio del main -->
+    <main>
+        <div class="bk-header">
+            <h1>RESERVAS</h1>
+        </div>
+        <div class="reservas-ct">
+            <h2>
+                Haga su reserva:
+            </h2>
+            <form class="bk-form" action="" method="post" enctype="application/x-www-form-urlencoded">
+                <label for="nombre-apellido">Nombre y apellido:</label>
+                <input type="text" name="nombre-apellido">
+                <br>
+                <label for="email">Email</label>
+                <input type="email" name="email">
+                <br>
+                <label for="fecha">Fecha:</label>
+                <input type="date" name="fecha">
+                <br>
+                <label for="cantidad">cantidad de personas</label>
+                <select name="cantidad">
+                    <option value="2">2 personas</option>
+                    <option value="3">3 personas</option>
+                    <option value="1">4 personas</option>
+                    <option value="5">5 personas</option>
+                </select>
+
+            </form>
+            <button>
+                Reservar
+            </button>
+        </div>
+    </main>
+    <!-- Fin del main -->
+    <!-- Inicio del footer -->
+    <footer class="pieDePagina">
+        <div class="logoFooter">
+            <img src="../media/RESTAURANT.png" alt="logoFooter">
+        </div>
+        <div class="contacto">
+            <h4>Contactanos:</h4>
+            <ul>
+                <li>1111-111-1111</li>
+                <li>enuestrasalsa@gmail.com</li>
+                <li>Av. Santa Fe 5666, Recoleta</li>
+            </ul>
+        </div>
+        <div class="redes-footer">
+            <h4>Seguinos en:</h4>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://www.gmail.com/" target="_blank"><i class="fas fa-envelope"></i></a>
+        </div>
+    </footer>
+    <!-- fin del footer -->
+</body>
+
+</html>
