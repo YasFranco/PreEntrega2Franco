@@ -76,3 +76,15 @@ h3{
     align-items: center;
 
 }
+/*------FOOTER------*/
+.footer{
+    background-color: #b7958e;
+    display: flex;
+    padding: 20px;
+}
+
+.icon-social{
+    color: blueviolet;
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+}
