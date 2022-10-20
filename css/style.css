@@ -32,8 +32,6 @@
 }
 /*-----FIN NAVBAR-----*/
 
-/*=======INDEX=======*/
-
 /*------BANNER------*/
 
 .banner{
@@ -49,6 +47,9 @@
     align-items: center;
 }
 /*-----FIN BANNER-----*/
+
+/*=======INDEX=======*/
+
 /*------RECOMENDACIONES-----*/
 
 .title-recom{
@@ -76,8 +77,10 @@ h3{
     align-items: center;
 
 }
+ /*========FIN INDEX=======*/
 
-/*------NOSOTROS-----*/
+
+/*=======NOSOTROS========*/
 
 .history{
     padding: 1.875rem;
@@ -129,7 +132,37 @@ h3{
     background-size: cover;
 }
 
-/*------FIN NOSOTROS-----*/
+/*=======FIN NOSOTROS======*/
+
+/*======NUESTRA CARTA=======*/
+
+.title-menu{
+    display: flex;
+    text-decoration: underline;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+/*====FIN NUESTRA CARTA=====*/
+
+/*========CONTACTOS=======*/
+
+/*======FIN CONTACTOS======*/
+
+/*=====RESERVAS======*/
+
+/*========FIN RESERVAS======*/
+
 
 /*------FOOTER------*/
 .footer{
