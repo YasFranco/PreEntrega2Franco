@@ -157,6 +157,20 @@ h3{
 
 /*========CONTACTOS=======*/
 
+.contact1{
+    display: flex;
+    flex-direction: column;
+    padding: 2.5rem;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.iframe{
+    width: 100%;
+    
+}
+
 /*======FIN CONTACTOS======*/
 
 /*=====RESERVAS======*/
